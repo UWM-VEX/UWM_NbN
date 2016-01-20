@@ -27,6 +27,7 @@
 void initializeIO() {
 	//lcdInit(uart1);
 	robotStopper = initBallStopper(5);
+	robotIntake = initIntake(initPantherMotor(5,0), initPantherMotor(11, 0), initPantherMotor(6,0), 9, 10); //FIXME Use real values
 }
 
 /**
@@ -45,7 +46,6 @@ void initialize() {
 			initPantherMotor(9,0), initPantherMotor(2,1),
 			initPantherMotor(10,0), initPantherMotor(3,1),
 			encoderInit(1, 2, 0), encoderInit(3,4,0));
-	robotIntake = initIntake(initPantherMotor(5,0), initPantherMotor(6,0));
 	PIDController shooterPID = initPIDController(.0125, 0, 0, .028, 0, 100);
 	robotShooter = initShooter(shooterPID, initPantherMotor(4,0), initPantherMotor(7,0), 2800, 0, 0);
 
