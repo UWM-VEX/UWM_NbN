@@ -7694,3 +7694,57 @@ Caused by: java.io.IOException: Could not rename file C:\Users\Erik\Documents\UW
 	at org.eclipse.jgit.api.ResetCommand.checkoutIndex(ResetCommand.java:386)
 	at org.eclipse.jgit.api.ResetCommand.call(ResetCommand.java:203)
 	... 8 more
+!SESSION 2016-01-19 20:32:15.935 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-01-19 20:32:22.419
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2016-01-19 20:32:24.804
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-01-19 20:32:24.804
+!MESSAGE Commands should really have a category: plug-in='edu.purdue.sigbots.ros.eclipse.manager', id='edu.purdue.sigbots.ros.eclipse.manager.commands.updateCommand', categoryId='edu.purdue.sigbots.ros.eclipse.flashutil.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2016-01-19 20:32:25.559
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-01-19 20:32:25.560
+!MESSAGE Commands should really have a category: plug-in='edu.purdue.sigbots.ros.eclipse.manager', id='edu.purdue.sigbots.ros.eclipse.manager.commands.updateCommand', categoryId='edu.purdue.sigbots.ros.eclipse.flashutil.commands.category'
+
+!ENTRY org.eclipse.ui 2 2 2016-01-19 20:32:32.913
+!MESSAGE Invalid preference category path: com.android.ide.eclipse.preferences.main (bundle: com.android.ide.eclipse.base, page: com.android.ide.eclipse.common.preferences.UsagePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2016-01-19 20:32:32.919
+!MESSAGE Invalid preference category path: com.android.ide.eclipse.preferences.main (bundle: com.android.ide.eclipse.ddms, page: com.android.ide.eclipse.ddms.preferences.PreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2016-01-19 20:32:32.920
+!MESSAGE Invalid preference category path: com.android.ide.eclipse.preferences.main (bundle: com.android.ide.eclipse.ddms, page: com.android.ide.eclipse.ddms.preferences.LogCatPreferencePage)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-19 20:32:33.750
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Erik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-19 20:32:34.286
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-19 20:32:34.365
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-19 20:32:34.369
+!MESSAGE Installing cpp if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-19 20:32:34.478
+!MESSAGE Installedcpp
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-19 20:32:34.484
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-19 20:32:34.502
+!MESSAGE Installedjava
