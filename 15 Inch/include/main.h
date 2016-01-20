@@ -45,6 +45,7 @@
 
 #include <API.h>
 #include "OI.h"
+#include "Auto.h"
 #include "PantherMotor.h"
 #include "Utilities.h"
 #include "IME.h"
@@ -53,6 +54,7 @@
 #include "Drive.h"
 #include "Intake.h"
 #include "Shooter.h"
+#include "PropDriveToWayPoint.h"
 #include "Robot.h"
 
 int numJoysticks;
