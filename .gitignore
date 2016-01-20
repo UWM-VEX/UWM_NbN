@@ -30,3 +30,11 @@
 
 # Debug files
 *.dSYM/
+
+# Project Files
+*.log
+*.pdom
+*.index
+*.snap
+*.resources
+*.xmi
